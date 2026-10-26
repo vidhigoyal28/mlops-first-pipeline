@@ -1,0 +1,6 @@
+kiet-env/
+venv/
+__pycache__/
+.pytest_cache/
+.env
+error.txt
