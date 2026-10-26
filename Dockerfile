@@ -5,10 +5,10 @@ FROM python:3.14-slim
 #Set the working directory in the container
 WORKDIR /app
 #copy dependencies list before copying application code
-COPY requirement.txt .
+COPY requirements.txt .
 
 #Install the dependencies
-RUN pip install -r requirement.txt
+RUN pip install -r requirements.txt
 
 #Copy application code and save model inside /app
 COPY . . 
